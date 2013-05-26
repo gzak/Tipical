@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TipicalViewController : UIViewController
-
+- (IBAction)changeGuestCount:(UIStepper *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *guestCountLabel;
+@property (weak, nonatomic) IBOutlet UIStepper *guestStepper;
 @end

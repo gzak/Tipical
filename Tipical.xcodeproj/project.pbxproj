@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2087A68D17520C9600AD8608 /* SplitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2087A68C17520C9600AD8608 /* SplitterViewController.m */; };
 		209E346A1749780800A9DCB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209E34691749780800A9DCB2 /* UIKit.framework */; };
 		209E346C1749780800A9DCB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209E346B1749780800A9DCB2 /* Foundation.framework */; };
 		209E346E1749780800A9DCB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209E346D1749780800A9DCB2 /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2087A68B17520C9600AD8608 /* SplitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitterViewController.h; sourceTree = "<group>"; };
+		2087A68C17520C9600AD8608 /* SplitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitterViewController.m; sourceTree = "<group>"; };
 		209E34661749780800A9DCB2 /* Tipical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209E34691749780800A9DCB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		209E346B1749780800A9DCB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,8 @@
 				209E34841749780800A9DCB2 /* TipicalViewController.h */,
 				209E34851749780800A9DCB2 /* TipicalViewController.m */,
 				209E34701749780800A9DCB2 /* Supporting Files */,
+				2087A68B17520C9600AD8608 /* SplitterViewController.h */,
+				2087A68C17520C9600AD8608 /* SplitterViewController.m */,
 			);
 			path = Tipical;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				209E34761749780800A9DCB2 /* main.m in Sources */,
 				209E347A1749780800A9DCB2 /* TipicalAppDelegate.m in Sources */,
 				209E34861749780800A9DCB2 /* TipicalViewController.m in Sources */,
+				2087A68D17520C9600AD8608 /* SplitterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				209E348B1749780800A9DCB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
